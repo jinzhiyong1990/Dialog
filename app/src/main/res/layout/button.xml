@@ -12,5 +12,55 @@
         android:onClick="myclick"
         />
 
+    <Button
+        android:id="@+id/putong2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通对话框2"
+        android:onClick="myclick"
+        />
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="列表对话框1"
+        android:onClick="myclick"
+        />
+
+    <Button
+        android:id="@+id/btn_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选对话框1"
+        android:onClick="myclick"
+        />
+
+    <Button
+        android:id="@+id/btn_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选对话框1"
+        android:onClick="myclick"
+
+        />
+
+    <Button
+        android:id="@+id/btn_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="等待对话框(progress)"
+        android:onClick="myclick"
+        />
+
+    <Button
+        android:id="@+id/btn_progree_jindutiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myclick"
+        android:text="进度条对话框"
+
+        />
+
 </LinearLayout>
 
